@@ -15,7 +15,7 @@ nome = str(input('Digite seu nome completo: ')).strip()
 print(f'Nome em maiúsculas: {nome.upper()}')
 print(f'Nome em minúsculas: {nome.lower()}')
 
-# LÓGICA 1: Quantas letras ao todo (SEM espaços)
+# LÓGICA 1:
 # Usamos o .replace(' ', '') para remover TODOS os espaços do meio do nome.
 # Se o nome for "Ana Paula", o replace deixa "AnaPaula" (8 letras).
 nome_sem_espacos = nome.replace(' ', '')
