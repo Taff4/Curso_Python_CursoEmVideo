@@ -29,3 +29,10 @@ print(f"O número {num} tem a parte inteira {num:.0f}")
 # - Diferença de FLOOR: O floor arredonda para baixo. Para números 
 #   positivos é igual ao trunc, mas para negativos é diferente! 
 #   Ex: floor(-3.5) vira -4, enquanto trunc(-3.5) vira -3.
+
+#--------------------------------------
+#Outra maneira
+''' 
+Nume = float('Digite um valor: )
+print('O número {} tem a parte inteira é {}'.format(num, int(num))
+'''

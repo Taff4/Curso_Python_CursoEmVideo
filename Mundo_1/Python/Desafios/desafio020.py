@@ -4,7 +4,7 @@
 # ==============================================================
 # DESAFIO 020: SORTEANDO UMA ORDEM NA LISTA
 # ==============================================================
-import random #
+from random import shuffle#
 
 print(f"{' Desafio 020 ':=^50}")
 
@@ -21,7 +21,7 @@ lista = [n1, n2, n3, n4]
 # 3. EMBARALHAMENTO (PROCESSAMENTO)
 # Diferente do choice, o shuffle REORDENA a própria lista original.
 # Ele não retorna um valor novo, ele altera a lista que já existe.
-random.shuffle(lista)
+shuffle(lista)
 
 # 4. SAÍDA
 print('\nA ordem de apresentação será:')
