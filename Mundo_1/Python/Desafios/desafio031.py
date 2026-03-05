@@ -13,5 +13,8 @@ else:
     # O else já entende que aqui a distância é MAIOR que 200
     preco = distancia * 0.45
 
+#Outra maneira: simplificado
+# preco = distancia * 0.50 if distancia <= 200 else distancia * 0.45
+
 # 3. Saída Única
 print(f'Sua viagem de {distancia}Km custará R${preco:.2f}')
