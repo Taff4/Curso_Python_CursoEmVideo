@@ -1,7 +1,7 @@
 # ==============================================================================
 #        DESAFIO 037: CONVERSOR DE BASES NUMÉRICAS (MUNDO 2)
 # ==============================================================================
-from colorama import Fore, Style, init
+from colorama import Fore, init
 init(autoreset=True)
 
 # 1. ENTRADA DE DADOS

@@ -5,9 +5,6 @@ Crie um programa que leia duas notas de um aluno e calcule sua média, mostrando
 #Media 7.0 ou superior: Aprovado
 """
 # ==============================================================================
-#           DESAFIO 040: MÉDIA DO ALUNO (COM CORES E VALIDAÇÃO)
-# ==============================================================================
-# ==============================================================================
 #           DESAFIO 040: MÉDIA DO ALUNO (BLINDADO COM TRY/EXCEPT)
 # ==============================================================================
 from colorama import Fore, Style, init

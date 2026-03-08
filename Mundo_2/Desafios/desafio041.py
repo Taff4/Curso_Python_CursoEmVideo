@@ -44,7 +44,7 @@ elif idade <= 14:
     print(f'Classificação: {Fore.GREEN}INFANTIL')
 elif idade <= 19:
     print(f'Classificação: {Fore.GREEN}JUNIOR')
-elif idade <= 25:  # Ajustado para o padrão comum (25 anos), mas você pode mudar para 20
+elif idade <= 25:
     print(f'Classificação: {Fore.GREEN}SÊNIOR')
 else:
     print(f'Classificação: {Fore.GREEN}MASTER')
